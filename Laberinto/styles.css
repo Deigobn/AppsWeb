@@ -13,6 +13,7 @@
   animation-name: mover;
   position: relative;
   animation-duration: 5s;
+  animation-iteration-count: infinite; 
 }
 
 @keyframes mover {
@@ -37,7 +38,5 @@
     90%   {background-color:red; left:450px; top: 500px;}
     95%   {background-color:red; left:450px; top: 500px;}
     100%  {background-color:red; left:450px; top: 500px;}
-    
-
-
 }
+
