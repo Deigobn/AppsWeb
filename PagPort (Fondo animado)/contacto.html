@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Diego Buelna</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="fondo-animado-contacto"> 
+    <header class="encabezado-principal">
+        <div class="logo">
+            <a href="index.html">Diego Buelna</a>
+        </div>
+        <nav class="navegacion-principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de Mí</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenido-contacto">
+        <h1>Hablemos de tu Arquitectura de Datos</h1>
+
+        <section class="formulario-contacto">
+            <h2>Cuéntame sobre tu Proyecto</h2>
+            <form action="#" method="POST" class="form-developer">
+                <div class="campo-formulario">
+                    <label for="nombre">Tu Nombre o Nombre de la Empresa:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="email">Tu Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="asunto">Me Contacto por:</label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="">Selecciona qué necesitas...</option>
+                        <option value="api">Desarrollo de API REST</option>
+                        <option value="database">Diseño de Base de Datos</option>
+                        <option value="logica">Lógica de Negocio / Endpoint</option>
+                        <option value="consulta">Consulta General</option>
+                    </select>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="mensaje">Describe los requerimientos de la funcionalidad:</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="boton-principal">Enviar Requerimiento</button>
+            </form>
+        </section>
+
+        <section class="perfil-developer">
+            <h2>Otras Formas de Contacto</h2>
+            <article>
+                <h3>Correo Directo</h3>
+                <p><a href="mailto:diegobuelnan2006@gmail.com">diegobuelnan2006@gmail.com</a></p>
+            </article>
+            <article>
+                <h3>Mi Código (GitHub)</h3>
+                <p>Puedes ver mis proyectos en <a href="https://github.com/Deigobn" target="_blank">https://github.com/Deigobn</a></p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <p>Copyright &copy; 2025 - Diego Buelna Dev | ¡Hagamos que funcione!</p>
+    </footer>
+</body>
+</html>
