@@ -1,26 +1,22 @@
-/* ================================================= */
-/* Archivo: styles.css                               */
-/* Estilos para el Proyecto Web Developer (Backend)  */
-/* ================================================= */
 
-/* 1. ESTILOS BASE Y RESET SIMPLIFICADO */
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9; /* Fondo claro */
+    background-color: #f4f4f9; 
     color: #343a40; 
 }
 
-/* Definición de colores principales (Ajuste para Backend) */
+
 :root {
-    --color-primario: #6f42c1; /* Púrpura, color de rigor */
-    --color-acento: #fd7e14; /* Naranja/Ámbar, para énfasis en datos */
+    --color-primario: #6f42c1; 
+    --color-acento: #fd7e14; 
     --color-fondo: #f4f4f9;
 }
 
-/* 2. ENCABEZADO Y NAVEGACIÓN */
+
 
 .encabezado-principal {
     display: flex;
@@ -62,7 +58,7 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* 3. CONTENIDO PRINCIPAL Y TIPOGRAFÍA */
+
 
 main {
     padding: 30px 20px;
@@ -89,11 +85,11 @@ h3 {
     margin-top: 20px;
 }
 
-/* 4. BOTONES Y LLAMADAS A LA ACCIÓN */
+
 
 .boton-principal {
     display: inline-block;
-    background-color: var(--color-acento); /* Naranja/Ámbar */
+    background-color: var(--color-acento); 
     color: white;
     padding: 12px 30px;
     text-decoration: none;
@@ -109,7 +105,7 @@ h3 {
     background-color: #ff8e3e;
 }
 
-/* 5. SECCIONES ESPECÍFICAS (index.html) */
+
 
 .hero-developer {
     text-align: center;
@@ -135,7 +131,7 @@ h3 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-/* 6. SECCIONES ESPECÍFICAS (acerca.html y servicios.html) */
+
 
 .perfil-developer, .oferta-servicios {
     margin-bottom: 50px;
@@ -148,10 +144,10 @@ h3 {
 .servicio-detalle {
     margin-bottom: 25px;
     padding-left: 15px;
-    border-left: 3px solid var(--color-acento); /* Color de acento para detalles */
+    border-left: 3px solid var(--color-acento); 
 }
 
-/* 7. ESTILOS DEL FORMULARIO (contacto.html) */
+
 
 .form-developer {
     max-width: 600px;
@@ -192,7 +188,7 @@ h3 {
     outline: none;
 }
 
-/* 8. PIE DE PÁGINA */
+
 .pie-pagina {
     text-align: center;
     padding: 20px;
@@ -201,7 +197,7 @@ h3 {
     margin-top: 50px;
 }
 
-/* Estilos Responsivos Básicos */
+
 @media (max-width: 768px) {
     .encabezado-principal {
         flex-direction: column;
@@ -221,4 +217,5 @@ h3 {
     .hero-developer {
         padding: 50px 15px;
     }
+
 }
